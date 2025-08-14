@@ -1,0 +1,8 @@
+const names= require('./3a.module')
+const sayhi= require('./3b.modules')
+const newone= require('./3d.module')
+console.log(newone)
+require('./3e.module.js')
+sayhi(names.john)
+sayhi(names.peter)
+sayhi("ganga")
